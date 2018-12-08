@@ -91,9 +91,10 @@ html, .main {
 .logo {
 	height:98px;
 	float:left;
+	margin-left: 200px;
 }
 h1 {
-	margin:0;
+	margin:-80px 100px 100px 100px;
 	padding:17px 0;
 	color:#e1e9df;
 	font:bold 40px/1.2em Time, Helvetica, sans-serif;
@@ -196,31 +197,37 @@ a.rm, a.com {
 	padding:0;
 	width:1325px;
 }
+.mainbar2 {
+	margin:0;
+	padding:0;
+	
+	
+}
 
 
-.mainbar .article {
+.mainbar .mainbar2 .article {
 	margin:0;
 	padding:16px 24px 24px 40px;
 }
-.mainbar .post-data a {
+.mainbar .mainbar2 .post-data a {
 	color:#595959;
 }
-.mainbar .post-data a.com {
+.mainbar .mainbar2 .post-data a.com {
 	float:right;
 	color:#e58a42;
 }
-.mainbar .spec a {
+.mainbar .mainbar2 .spec a {
 	background:#e58a42;
 	padding:10px;
 }
 
 
 
-.content .mainbar .comment {
+.content .mainbar .mainbar2 .comment {
 	margin:0;
 	padding:16px 0 0 0;
 }
-.content .mainbar .comment img.userpic {
+.content .mainbar .mainbar2 .comment img.userpic {
 	border:1px solid #dedede;
 	margin:10px 16px 0 0;
 	padding:0;
@@ -233,6 +240,7 @@ a.rm, a.com {
 .footer_resize {
 	position: center;
 	margin:0 auto;
+	margin-top: 20px;
 	padding:24px 40px;
 	width:890px;
 }
